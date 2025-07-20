@@ -12,7 +12,7 @@ public class Demo1Application {
 
     private static final Logger logger=LoggerFactory.getLogger(Demo1Application.class);
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         logger.info("this is a info message");
         logger.error("this is a error message");
         logger.warn("this is a warning message");
